@@ -1,2 +1,7 @@
 const myname: string = "Matt Joseph, aka: theurbandev";
-console.log(myname);
+
+const returnName = (name: string) => {
+  return name;
+};
+
+returnName(myname);
